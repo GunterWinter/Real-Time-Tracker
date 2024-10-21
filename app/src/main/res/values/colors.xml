@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorPrimary">#2979FF</color>
+    <color name="colorPrimaryDark">#2979FF</color>
+    <color name="colorAccent">#2979FF</color>
+    <color name="skyblue">#2979FF</color>
+    <color name="saddedwhite">#EBEBEB</color>
+    <color name="white">#ffffff</color>
+    <color name="LowOpasityBlack">#80000000</color>
+    <color name="Grey">#80707070</color>
+    <color name="LightGrey">#9C9D9F</color>
+    <color name="PurpleLight">#D3C6F5</color>
+    <color name="PurpleDark">#8692f7</color>
+    <color name="red">#FF0000</color>
+    <color name="purple">#800080</color>
+    <color name="green">#00FF00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="startblue">#0CCBE5</color>
+    <color name="orange">#FFA500</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="lavender">#8692f7</color>
+</resources>

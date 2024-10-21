@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "685163849125",
+    "project_id": "real-time-tracker-9715c",
+    "storage_bucket": "real-time-tracker-9715c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685163849125:android:f820fb19f1c9714515744c",
+        "android_client_info": {
+          "package_name": "com.nguyenquocthai.real_time_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC52uvzbUDBl0PRIFKtMOpl8aiir-iw9fU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

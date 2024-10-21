@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nguyenquocthai.real_time_tracker.Activity.ConfirmActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageProfileView"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:src="@drawable/ic_user" />
+
+    <RelativeLayout
+        android:id="@+id/layout_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/circleImageProfileView"
+        android:layout_marginTop="21dp"
+        android:backgroundTint="@color/PurpleLight"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/confirm_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cardview"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btnbackground"
+            android:backgroundTint="@color/PurpleDark"
+            android:text="Confirm"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ConfirmBox"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="14dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="14dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Share this invite code with the people you want in your circle:"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtcircle_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/hide_code"
+                    android:textColor="@color/skyblue"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/ConfirmBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText_firstnamechange"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableStart="@drawable/ic_user"
+                android:drawablePadding="10dp"
+                android:minHeight="48dp"
+                android:paddingStart="10dp"
+                android:text="something" />
+
+            <EditText
+                android:id="@+id/editText_lastnamechange"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableStart="@drawable/ic_user"
+                android:drawablePadding="10dp"
+
+                android:minHeight="48dp"
+                android:paddingStart="10dp"
+                android:text="something" />
+
+            <EditText
+                android:id="@+id/editText_readmail"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounded_edittext"
+                android:backgroundTint="@color/LightGrey"
+                android:backgroundTintMode="multiply"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="10dp"
+                android:editable="false"
+                android:focusable="false"
+                android:inputType="none"
+                android:minHeight="48dp"
+                android:paddingStart="10dp"
+                android:text="Only read" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:hintEnabled="false"
+                app:passwordToggleEnabled="true">
+                <EditText
+                    android:id="@+id/editText_readpassword"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_edittext"
+                    android:backgroundTint="@color/LightGrey"
+                    android:backgroundTintMode="multiply"
+                    android:drawableStart="@drawable/ic_lock_black_24dp"
+                    android:drawablePadding="10dp"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    android:paddingStart="10dp"
+                    android:text="Only read" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
